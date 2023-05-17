@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.boxTex{
+    text-align: center;
+    h2{
+        margin-top: 70px;
+    }
+}
+
+.container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    input{
+        width: 500px;
+        height: 45px;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .qidiruv{
+       width: 100px; 
+       border-radius: 20px;
+       background-color: black;
+       color: white;
+       cursor: pointer;
+    }
+
+}
+// qidiruv qismi yakullandi
+
+// video qismi boshlandi
+
+.boxVideo {
+    display: flex;
+    flex-wrap: wrap;
+
+   .videoo{
+    width: 160px;
+    height: 160px;
+    margin: 50px 0px 0px 40px;
+    background-color: rgb(133, 116, 116);
+    box-shadow: 6px 4px darkgray;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 0px 0px 0px 20px;
+   }
+
+}
+#btn{
+    background-color: red;
+    width: 25px;
+    height: 25px; 
+    cursor: pointer;
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+.tozala{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    .remove {
+        width: 200px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+    .ortga {
+        width: 100px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+}
+
+iframe{
+    width: 160px;
+    height: 160px;
+}
